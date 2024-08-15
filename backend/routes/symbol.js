@@ -45,4 +45,28 @@ router.get('/exchange-info', async (req, res) => {
   }
 });
 
+router.post('/update-symbols', verifyToken, async (req, res) => {
+  const symbolsToUpdate = req.body;
+  
+  try {
+    const connection = await pool.getConnection();
+
+    // Update each symbol in the database
+    for (const symbol of symbolsToUpdate) {
+      const { symbol_name, symbol_code } = symbol;
+      await connection.query(`
+        UPDATE exchange_info 
+        SET symbol_name = ? 
+        WHERE symbol_code = ?
+      `, [symbol_name, symbol_code]);
+    }
+
+    connection.release();
+    res.status(200).json({ message: 'Symbols updated successfully' });
+  } catch (error) {
+    console.error('Error updating symbols:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
 module.exports = router;

@@ -1,0 +1,7 @@
+pip3 install redispip3 
+pip3 install python-binance
+pip3 install apscheduler
+pip3 install mysql-connector-python
+pip3 install requests
+pip3 install attrs
+pip3 install six

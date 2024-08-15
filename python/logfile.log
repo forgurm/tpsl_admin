@@ -1,0 +1,145 @@
+2024-08-15 22:44:53,066 - root - INFO - 로깅 설정 완료.
+2024-08-15 22:44:53,072 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,073 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,073 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,073 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,074 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,074 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,075 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,075 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 22:44:53,075 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,076 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,076 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,076 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,076 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,077 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,077 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,077 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 22:44:53,077 - apscheduler.scheduler - INFO - Scheduler started
+2024-08-15 22:44:53,080 - __main__ - INFO - Scheduler started
+2024-08-15 22:45:00,106 - __main__ - INFO - 15m update start
+2024-08-15 22:45:00,109 - __main__ - INFO - 5m update start
+2024-08-15 22:45:47,955 - __main__ - INFO - 5m update done
+2024-08-15 22:45:56,925 - __main__ - INFO - 15m update done
+2024-08-15 22:50:00,291 - __main__ - INFO - 5m update start
+2024-08-15 22:50:30,020 - __main__ - INFO - 5m update done
+2024-08-15 22:55:00,280 - __main__ - INFO - 5m update start
+2024-08-15 22:55:31,815 - __main__ - INFO - 5m update done
+2024-08-15 23:00:00,679 - __main__ - INFO - 5m update start
+2024-08-15 23:00:00,697 - __main__ - INFO - 1h update start
+2024-08-15 23:00:00,704 - __main__ - INFO - 15m update start
+2024-08-15 23:00:00,994 - __main__ - INFO - 30m update start
+2024-08-15 23:01:23,978 - __main__ - INFO - 30m update done
+2024-08-15 23:01:36,618 - __main__ - INFO - 1h update done
+2024-08-15 23:01:36,633 - __main__ - INFO - 15m update done
+2024-08-15 23:01:57,883 - __main__ - INFO - 5m update done
+2024-08-15 23:05:00,383 - __main__ - INFO - 5m update start
+2024-08-15 23:05:28,151 - __main__ - INFO - 5m update done
+2024-08-15 23:10:00,299 - __main__ - INFO - 5m update start
+2024-08-15 23:10:27,462 - __main__ - INFO - 5m update done
+2024-08-15 23:15:00,484 - __main__ - INFO - 15m update start
+2024-08-15 23:15:00,497 - __main__ - INFO - 5m update start
+2024-08-15 23:15:16,675 - __main__ - ERROR - MySQL error during bulk insert: 1114 (HY000): The table 'binance_ohlcv' is full
+2024-08-15 23:15:16,728 - __main__ - ERROR - MySQL error during bulk insert: 1114 (HY000): The table 'binance_ohlcv' is full
+2024-08-15 23:15:16,855 - __main__ - INFO - 15m update done
+2024-08-15 23:15:16,857 - __main__ - INFO - 5m update done
+2024-08-15 23:15:20,002 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:15:25,051 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:15:30,082 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:15:35,119 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:15:40,151 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:15:45,187 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:15:50,217 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:15:55,249 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:00,278 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:05,309 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:10,359 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:15,387 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:20,430 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:25,458 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:30,491 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:35,521 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:40,576 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:45,606 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:50,644 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:16:55,689 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:00,717 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:05,748 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:10,778 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:15,806 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:20,836 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:25,864 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:30,892 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:35,925 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:40,969 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:46,005 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:51,035 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:17:56,064 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:01,094 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:06,123 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:11,150 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:16,179 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:21,212 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:26,244 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:31,271 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:36,301 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:41,332 - __main__ - WARNING - Module BinanceDataFetcher status is not normal: 2
+2024-08-15 23:18:46,367 - __main__ - WARNING - Module BinanceDataFetcher s2024-08-15 23:23:56,706 - root - INFO - 로깅 설정 완료.
+2024-08-15 23:23:56,713 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,714 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,714 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,715 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,715 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,715 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,716 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,716 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-15 23:23:56,716 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,717 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,717 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,717 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,717 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,717 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,718 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,718 - apscheduler.scheduler - INFO - Added job "BinanceDataFetcher.schedule_jobs.<locals>.<lambda>" to job store "default"
+2024-08-15 23:23:56,718 - apscheduler.scheduler - INFO - Scheduler started
+2024-08-15 23:23:56,719 - __main__ - INFO - Scheduler started
+2024-08-15 23:25:00,052 - __main__ - INFO - 5m update start
+2024-08-15 23:25:22,918 - __main__ - INFO - 5m update done
+2024-08-15 23:30:00,453 - __main__ - INFO - 30m update start
+2024-08-15 23:30:00,450 - __main__ - INFO - 15m update start
+2024-08-15 23:30:00,480 - __main__ - INFO - 5m update start
+2024-08-15 23:31:02,880 - __main__ - INFO - 15m update done
+2024-08-15 23:31:17,290 - __main__ - INFO - 5m update done
+2024-08-15 23:31:25,658 - __main__ - INFO - 30m update done
+2024-08-15 23:35:00,352 - __main__ - INFO - 5m update start
+2024-08-15 23:35:30,195 - __main__ - INFO - 5m update done
+2024-08-15 23:40:00,273 - __main__ - INFO - 5m update start
+2024-08-15 23:40:29,137 - __main__ - INFO - 5m update done
+2024-08-15 23:45:00,447 - __main__ - INFO - 5m update start
+2024-08-15 23:45:00,465 - __main__ - INFO - 15m update start
+2024-08-15 23:45:51,447 - __main__ - INFO - 15m update done
+2024-08-15 23:46:01,742 - __main__ - INFO - 5m update done
+2024-08-15 23:50:00,301 - __main__ - INFO - 5m update start
+2024-08-15 23:50:33,073 - __main__ - INFO - 5m update done
+2024-08-15 23:55:00,310 - __main__ - INFO - 5m update start
+2024-08-15 23:55:32,502 - __main__ - INFO - 5m update done
+2024-08-16 00:00:01,006 - __main__ - INFO - 4h update start
+2024-08-16 00:00:01,067 - __main__ - INFO - 1h update start
+2024-08-16 00:00:01,134 - __main__ - INFO - 30m update start
+2024-08-16 00:00:02,299 - __main__ - INFO - 12h update start
+2024-08-16 00:00:02,366 - __main__ - INFO - 15m update start
+2024-08-16 00:00:03,964 - __main__ - INFO - 5m update start
+2024-08-16 00:02:10,250 - __main__ - INFO - 1h update done
+2024-08-16 00:02:11,152 - __main__ - INFO - 15m update done
+2024-08-16 00:03:00,147 - __main__ - INFO - 5m update done
+2024-08-16 00:03:01,128 - __main__ - INFO - 4h update done
+2024-08-16 00:03:35,429 - __main__ - INFO - 30m update done
+2024-08-16 00:03:50,611 - __main__ - INFO - 12h update done
+2024-08-16 00:05:00,483 - __main__ - INFO - 5m update start
+2024-08-16 00:05:31,015 - __main__ - INFO - 5m update done
+2024-08-16 00:10:00,274 - __main__ - INFO - 5m update start
+2024-08-16 00:10:32,059 - __main__ - INFO - 5m update done
+2024-08-16 00:15:00,359 - __main__ - INFO - 5m update start
+2024-08-16 00:15:00,374 - __main__ - INFO - 15m update start
+2024-08-16 00:15:43,438 - __main__ - INFO - 15m update done
+2024-08-16 00:15:48,664 - __main__ - INFO - 5m update done
